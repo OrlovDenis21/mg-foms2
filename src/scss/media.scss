@@ -1,0 +1,86 @@
+@media (max-width: 1040px){
+    .header{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    .mobile__menu-menu{
+        line-height: 65px;
+    }
+    .menu__mobile{
+        display: block;
+    }
+
+    .mobile__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+        padding: 0 20px;
+        border-bottom: 1px solid #000000;
+        margin-bottom: 16px;
+    }
+    .menu__list-mobile .menu__item:nth-child(10){
+        padding-left: 0;
+    }
+    .menu__list-mobile .menu__item:nth-child(11),
+    .menu__list-mobile .menu__item:nth-child(12){
+        padding-left: 0;
+    }
+}
+@media (max-width: 721px){
+    .page{
+        flex-direction: column;
+        border-bottom: 1px solid #000000;
+        margin-bottom: 10px;
+    }
+    .footer__basement{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 630px){
+    .refractometry__arrow {
+        display: none;
+    }
+    .refractometry__subtitle{
+        flex-wrap: wrap;
+        margin-bottom: 7px;
+    }
+}
+@media (max-width: 540px){
+    .help__title{
+        display: none;
+    }
+    .region__title{
+        display: none;
+    }
+    .rendering__title{
+        display: none;
+    }
+    .provision__mobile{
+        display: block;
+        margin-left: 10px;
+    }
+    .provision{
+        display: contents;
+    }
+    
+    .rendering__title-mobile {
+    margin-bottom: 16px;
+    }
+}
+@media (max-width: 495px){
+    .refractometry__block{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .refractometry__service-left{
+        .refractometry__service{
+            margin-left: 0px;
+        }
+    }
+    .search{
+        margin-bottom: 8px;
+    }
+}
