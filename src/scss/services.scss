@@ -161,7 +161,7 @@ input{
 }
 // общий бкол колонок
 .infotmation {
-    // margin-bottom: 149px;
+    margin-bottom: 16px;
     overflow-y: auto;
     // для скрола
     flex: 1 1 auto;
@@ -253,8 +253,10 @@ input{
 }
 .data{
     display: flex;
-    // margin-left: 64px;
+    
     margin-right: 64px;
+    // white-space: nowrap;
+
     
     &-title{
         font-family: 'GothamPro400';
@@ -262,6 +264,15 @@ input{
         font-size: 12px;
         color: #000000;
         opacity: 0.5;
+        display: block;
+    }
+    &-title-mobile{
+        font-family: 'GothamPro400';
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+        opacity: 0.5;
+        display: none;
     }
     &-subtitle{
         font-family: 'GothamPro400';
@@ -269,6 +280,15 @@ input{
         font-size: 12px;
         color: #000000;
         margin-left: 14px;
+        display: block;
+    }
+    &-subtitle-mobile{
+        font-family: 'GothamPro400';
+        font-weight: 400;
+        font-size: 12px;
+        color: #000000;
+        // margin-left: 14px;
+        display: none;
     }
 }
 
@@ -326,9 +346,13 @@ input{
     // flex: 1 1 auto;
     // для скрола
     flex: 0 0 auto;
+
+    width: 100%;
 }
 .page__title{
     display: flex;
+    width: 100%;
+    // justify-content: space-between;
 }
 .page__subtitle{
     display: flex;
