@@ -28,9 +28,12 @@
     .menu__list-mobile .menu__item:nth-child(12){
         padding-left: 0;
     }
-    // .page__title{
-    //     justify-content: space-between;
-    // }
+    .refractometry__subtitle{
+        .data{
+            margin-right: 19px;
+        }
+    }
+    
 }
 @media (max-width: 721px){
     .page{
@@ -79,23 +82,27 @@
 
     .refractometry__subtitle{
         .data{
-            margin-right: 0;
+            
             &-title{
                 display: none;
             }
             &-title-mobile{
                 display: block;
+                margin-right: 6px;
+                
             }
             &-subtitle{
                 display: none;
             }
             &-subtitle-mobile{
                 display: block;
+                
             }
         }
     }
     .page__title{
         justify-content: space-between;
+        margin-right: 0;
     }
 }
 @media (max-width: 495px){
@@ -110,5 +117,11 @@
     }
     .search{
         margin-bottom: 8px;
+    }
+    .page__title{
+        .data{
+        justify-content: space-between;
+        margin-right: 0;
+        }
     }
 }

@@ -1,9 +1,7 @@
 .services{
     flex: 1 1 auto;
     margin-left: 20px;
-    // overflow-y: auto;
     flex: 1 1 auto;
-    // для скрола
     display: flex;
     flex-direction: column;
 }
@@ -17,13 +15,8 @@
     font-family: 'GothamPro';
     font-weight: 700;
     font-size: 18px;
-    // color: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
     color: #149AE2;
-} 
-.services__subtitle-img{
-
 }
-
 .provision{
     display: flex;
     margin-bottom: 18px;
@@ -107,7 +100,7 @@
     justify-content: center;
     align-items: center;
 }
-// provision__mobile
+
 .provision__mobile{
     display: none;
 }
@@ -133,7 +126,7 @@
     margin-left: 23px;
 }
 
-// provision__mobile
+
 .search{
     display: flex;
     width: 456px;
@@ -159,20 +152,18 @@ input{
     border: 0;
     width: 100%;
 }
-// общий бкол колонок
+
 .infotmation {
     margin-bottom: 16px;
     overflow-y: auto;
-    // для скрола
     flex: 1 1 auto;
     height: 1px;
     
 }
 .infotmation::-webkit-scrollbar {
-    width: 4px;               /* ширина scrollbar */
+    width: 4px;
 }
 .infotmation::-webkit-scrollbar{
-    // background: #FFFFFF;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 2px;
 }
@@ -183,18 +174,12 @@ input{
     background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
     border-radius: 2px;
 }
-// 1колонка
-
 .refractometry{
-    
-    
     background: #FFFFFF;
-    
     border: 1px solid rgba(000, 000, 000, 0.05);
     box-sizing: border-box;
     border-radius: 10px;
     display: flex;
-    
     align-items: center;
     justify-content: start;
     padding: 25px 25px;
@@ -225,14 +210,8 @@ input{
     align-items: center;
     flex: 1 1;
 }
-
-
-
-
-
 .refractometry__title{
     flex: 1 1;
-    
 } 
 .refractometry__data{
     font-family: 'GothamPro400';
@@ -253,11 +232,7 @@ input{
 }
 .data{
     display: flex;
-    
     margin-right: 64px;
-    // white-space: nowrap;
-
-    
     &-title{
         font-family: 'GothamPro400';
         font-weight: 400;
@@ -287,7 +262,6 @@ input{
         font-weight: 400;
         font-size: 12px;
         color: #000000;
-        // margin-left: 14px;
         display: none;
     }
 }
@@ -299,9 +273,6 @@ input{
     color: green;
     margin-right: 27px;
 }
-.refractometry__arrow {}
-
-.refractometry__item{}
 
 .refractometry-blue{
     .refractometry__icon{
@@ -343,8 +314,6 @@ input{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // flex: 1 1 auto;
-    // для скрола
     flex: 0 0 auto;
 
     width: 100%;
@@ -352,17 +321,13 @@ input{
 .page__title{
     display: flex;
     width: 100%;
-    // justify-content: space-between;
 }
 .page__subtitle{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    
 }
 .page__leaf{
-    // margin-left: 35px;
     width: 40px;
     height: 40px;
     display: flex;
@@ -370,11 +335,8 @@ input{
     justify-content: center;
 }
 .page__leaf:hover{
-    
-    
     background: rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    
     display: flex;
     align-items: center;
     justify-content: center;
