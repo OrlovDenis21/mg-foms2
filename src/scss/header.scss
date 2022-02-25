@@ -1,10 +1,10 @@
 .header{
     display: flex;
     flex-direction: column;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
     margin-top: 10px;
-
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #E5E5E5;
+    // border-bottom: 1px solid #000000;
     padding-bottom: 10px;
 } 
 .conent__item{
@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 14px;
+    // padding-left: 12px;
     
 }
 .message__item{
@@ -48,13 +48,14 @@
 .pege__content{
     display: flex;
     align-items: center;
-    margin-right: 26px;
+    margin-right: 15px;
 }
 .page__content-text{
     font-family: "GothamPro";
     font-weight: 700;
     font-size: 12px;
-    margin-right: 20px;
+    margin-right: 13px;
+    color: #000000;
 }
 .page__content-item{
     display: flex;
@@ -75,11 +76,18 @@
     font-size: 26px;
 } 
 .page__content-item-text{
-    margin-left: 8px;
+    margin-left: 17px;
 }
 .page__content-item-text1{
     font-family: 'GothamPro400';
 	font-weight: 400;
     font-size: 12px;
     color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 2px;
 } 
+.page__content-title-text2{
+    font-family: 'GothamPro';
+	font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}

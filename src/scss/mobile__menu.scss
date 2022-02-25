@@ -10,14 +10,52 @@
     display: none;
     width: 100%;
     height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
 }
+
+//скролла
+.mobile__menu-menu{
+    margin-left: 21px;
+    overflow-y: auto;
+    flex: 1 1 auto;
+}
+.mobile__menu-menu::-webkit-scrollbar {
+    width: 4px;
+}
+.mobile__menu-menu::-webkit-scrollbar{
+    background: linear-gradient(212.94deg, #35AD97 0%, #669AFF 100%);
+}
+.mobile__menu-menu::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 238px;
+    background: #FFFFFF;
+    border-radius: 2px;
+}
+
+//скролла
+
+
 .logo__menu-header{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    // border: 1px solid rgba(255, 255, 255, 0.12);
 
 } 
+.logo__menu-textheader{
+    font-family: "GothamPro400";
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+
+
+
 .logo__img-mobile{
 
 }
@@ -32,7 +70,9 @@
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 0 20px;
+    padding: 0 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .menu__list-mobile{
@@ -57,19 +97,21 @@
 }
 .close {
     position: relative;
-    width: 26px;
-    height: 26px;
+    width: 14px;
+    height: 14px;
     display: flex;
     align-items: center;
-    background-color: #acacac;
+    
+    
     cursor: pointer;
 }
 
 .close span:first-child {
     position: absolute;
     width: 100%;
-    height: 4px;
-    background-color: #000;
+    height: 2px;
+    background-color: #FFFFFF;
+    
     display: block;
     transform: rotate(45deg);
 }
@@ -77,17 +119,33 @@
 .close span:last-child {
     position: absolute;
     width: 100%;
-    height: 4px;
-    background-color: #000;
+    height: 2px;
+    background-color: #FFFFFF;
     display: block;
     transform: rotate(-45deg);
 }
 
 .visible {
-    display: block;
+    display: flex;
+    
 }
 .menu__mobile-footer-img{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    
+}
+.menu__mobile-footer-img-menu{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu__mobile-footer-img-menu:hover{
+    border-radius: 5px;
+    background: #149AE2;
+    opacity: 0.3;
+    
+    
 }

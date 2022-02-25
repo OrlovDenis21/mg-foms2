@@ -6,7 +6,7 @@
         display: none;
     }
     .mobile__menu-menu{
-        line-height: 65px;
+        line-height: 77px;
     }
     .menu__mobile{
         display: block;
@@ -17,8 +17,9 @@
         justify-content: space-between;
         align-items: center;
         height: 50px;
-        padding: 0 20px;
-        border-bottom: 1px solid #000000;
+        // padding: 0 20px;
+        border-bottom: 1px solid #E5E5E5;
+        // border-bottom: 1px solid #000000;
         margin-bottom: 16px;
     }
     .menu__list-mobile .menu__item:nth-child(10){
@@ -38,7 +39,8 @@
 @media (max-width: 721px){
     .page{
         flex-direction: column;
-        border-bottom: 1px solid #000000;
+        // border-bottom: 1px solid #000000;
+        border-bottom: 1px solid #E5E5E5;
         margin-bottom: 10px;
     }
     .page__title{
@@ -46,6 +48,15 @@
     }
     .footer__basement{
         flex-direction: column-reverse;
+    }
+    .footer {
+        
+        padding-top: 10px;
+        
+    }
+    .footer__basement-title {
+
+        padding-top: 10px;
     }
 }
 @media (max-width: 630px){
@@ -56,6 +67,7 @@
         flex-wrap: wrap;
         margin-bottom: 7px;
     }
+    
 }
 @media (max-width: 540px){
     .help__title{
@@ -80,29 +92,11 @@
     }
 
 
-    .refractometry__subtitle{
-        .data{
-            
-            &-title{
-                display: none;
-            }
-            &-title-mobile{
-                display: block;
-                margin-right: 6px;
-                
-            }
-            &-subtitle{
-                display: none;
-            }
-            &-subtitle-mobile{
-                display: block;
-                
-            }
-        }
-    }
+    
     .page__title{
         justify-content: space-between;
         margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 @media (max-width: 495px){
@@ -124,4 +118,41 @@
         margin-right: 0;
         }
     }
+    .footer__basement-application {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 495px){
+    .services__subtitle{
+        font-size: 14px;
+    }
+    .services__title {
+        margin-bottom: 15px;
+    }
+    .search__key {
+        padding: 12px 3px;
+    }
+    .wrapper{
+        margin-right: 10px;
+    }
+    .refractometry {
+        align-items: unset;
+    }
+    .refractometry__text {
+        
+        
+        
+        margin-bottom: 16px;
+    }
+    .refractometry__subtitle .data {
+        margin-bottom: 7px;
+    }
+    .refractometry__title {
+        margin-bottom: 9px;
+    }
+    .data-subtitle {
+        
+        margin-left: 5px;
+    }
+    
 }
